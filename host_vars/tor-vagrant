@@ -1,0 +1,11 @@
+---
+network_ether_interfaces: []
+
+proc_instances: [{  name: "Mozilla1",
+                    tor_Nickname: ["Mozilla1"],
+                    tor_ORPort: ["192.168.177.122:443"],
+                    tor_DirPort: ["192.168.177.122:80"],
+                    tor_Address: ["192.168.177.122"],
+                    tor_SOCKSPort: ["0"]
+                }]
+
